@@ -17,7 +17,6 @@ const CONFIG = {
     ADMIN_ROLE_ID: process.env.ADMIN_ROLE_ID,
     SERVER_NAME: process.env.SERVER_NAME || 'ROMA',
 };
- client.login(CONFIG.TOKEN);
 // أنواع التقديم
 const APPLICATION_TYPES = {
     'moderator': {
