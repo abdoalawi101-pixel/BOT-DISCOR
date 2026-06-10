@@ -11,11 +11,11 @@ const client = new Client({
 
 // ⚙️ الإعدادات - عدّلها حسب سيرفرك
 const CONFIG = {
-    TOKEN: 'YOUR_BOT_TOKEN_HERE',           // توكن البوت
-    APPS_CHANNEL_ID: 'YOUR_APPS_CHANNEL',   // قناة استقبال الطلبات
-    LOG_CHANNEL_ID: 'YOUR_LOG_CHANNEL',     // قناة السجلات (اختياري)
-    ADMIN_ROLE_ID: 'YOUR_ADMIN_ROLE',       // رتبة الإدارة
-    SERVER_NAME: 'ROMA',                    // اسم السيرفر
+    TOKEN: process.env.TOKEN,
+    APPS_CHANNEL_ID: process.env.APPS_CHANNEL_ID,
+    LOG_CHANNEL_ID: process.env.LOG_CHANNEL_ID,
+    ADMIN_ROLE_ID: process.env.ADMIN_ROLE_ID,
+    SERVER_NAME: process.env.SERVER_NAME || 'ROMA',
 };
 
 // أنواع التقديم
