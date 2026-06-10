@@ -1,10 +1,12 @@
 {
-  "name": "roma-application-bot",
+  "name": "roma-bot",
   "version": "1.0.0",
-  "description": "بوت تقديم إدارة سيرفر ROMA",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "discord.js": "^14.15.3"
