@@ -11,7 +11,7 @@ const client = new Client({
 
 // ⚙️ الإعدادات - عدّلها حسب سيرفرك
 const CONFIG = {
-    TOKEN: process.env.TOKEN,
+    TOKEN: process.env.DISCORD_TOKEN,
     APPS_CHANNEL_ID: process.env.APPS_CHANNEL_ID,
     LOG_CHANNEL_ID: process.env.LOG_CHANNEL_ID,
     ADMIN_ROLE_ID: process.env.ADMIN_ROLE_ID,
